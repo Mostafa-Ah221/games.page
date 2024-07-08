@@ -1,0 +1,94 @@
+
+:root {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Comfortaa", cursive;
+    color: var(--color-text) ;
+    background-color: var(--main-color);
+  }
+  h1, h2, h3, h4, h5, h6,p{
+    font-family: "Nerko One", cursive;
+    color: var(--color-text) !important;
+    line-height: 1.2 !important;
+  }
+  a{
+    color: var(--color-text) !important;;
+  }
+.game-page, .details{
+    background-color: var(--main-color);
+}
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+
+/* S
+tart style nav bar  */
+nav {
+    background-color: rgb(58, 73, 123) !important;
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+  }
+     nav .navbar-nav .nav-item .nav-link{
+      font-family: "Nerko One", cursive;
+      font-size: 1rem;
+     }
+  nav .navbar-nav .nav-item .nav-link.active{
+    color:#09c !important
+  }
+  nav .navbar-nav .nav-item .nav-link:hover{
+    color:#09c !important;
+    transition: 0.5s;
+  }
+    
+/* End style nav bar  */
+/* start style section Cards */
+main .card .card-body .card-text {
+    color: #aaabaf !important;
+    font-size:0.8rem !important;
+    margin-top: 10px;
+}
+.badge-color {
+    background-color: var(--seconde-color);
+}
+.badge {
+    font-size: 1rem !important;
+    max-width: 120px;
+}
+.home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+}
+.home .card:hover {
+    transform: scale(1.05);
+        filter: grayscale(0);
+}
+/* End style section Cards */
+/* ===========================================================(details)================================= */
+/* ===========================================================(details)================================= */
+/* start style section details */
+.details {
+    height: 100%;
+    display: none;
+    padding-bottom: 5rem;
+}
+.details .small {
+    font-weight: 200 !important;
+}
+.btn-close:hover {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+/* end style section details */
